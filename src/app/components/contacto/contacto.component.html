@@ -1,0 +1,60 @@
+<main class="main-bg">
+    <img
+      src="../../../assets/contacto.jpg"
+      alt=""
+    />
+    <div class="main-container">
+      <h1 class="titulos">CONTACTO</h1>
+    </div>
+</main>
+<section class="contact section" id="contact">
+    <div id="titulos-contacto">
+        <h3>Dejanos tu mensaje y nos pondremos en contacto a la brevedad</h3>
+    </div>
+    <div class="contact-box">
+      <form [formGroup]="registrationForm" (ngSubmit)="sendEmail($event)" autocomplete="off">
+        <div class="mb-3">
+          <label for="from_name" class="form-label">Nombre</label>
+          <input [ngClass]="{
+            'is-invalid':
+              hasErrors('name', 'required') || hasErrors('name', 'minlength')
+          }"  type="text" name="from_name" class="form-control" id="name" placeholder="Nombre" autocomplete="off" formControlName="name">
+          <div class="text-danger" *ngIf="hasErrors('name', 'required')">
+            Nombre requerido
+          </div>
+          <div class="text-danger" *ngIf="hasErrors('name', 'minlength')">
+            Nombre requiere al menos 3 caracteres
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="email_id" class="form-label">Email</label>
+          <input [ngClass]="{
+            'is-invalid':
+              hasErrors('email', 'required') || hasErrors('email', 'email')
+          }" type="email" name="email_id" class="form-control" id="email" placeholder="nombre@ejemplo.com" autocomplete="off" formControlName="email">
+          <div class="text-danger" *ngIf="hasErrors('email', 'required')">
+            Email requerido
+          </div>
+          <div class="text-danger" *ngIf="hasErrors('email', 'email')">
+          Formato inválido
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea [ngClass]="{
+            'is-invalid':
+              hasErrors('message', 'required') || hasErrors('message', 'minlength')
+          }" class="form-control" name="message" id="message" rows="5" placeholder="Escriba su mensaje aquí..." autocomplete="off" formControlName="message"></textarea>
+          <div class="text-danger" *ngIf="hasErrors('message', 'required')">
+            Mensaje requerido
+          </div>
+          <div class="text-danger" *ngIf="hasErrors('message', 'minlength')">
+            Mensaje requiere al menos 6 caracteres
+          </div>
+        </div>
+        <div class="mb-3">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
