@@ -9,6 +9,8 @@ import { ClientesComponent } from './components/clientes/clientes.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     InicioComponent,
     ServiciosComponent,
     ClientesComponent,
-    ContactoComponent
+    ContactoComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

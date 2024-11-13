@@ -65,6 +65,8 @@ export class ContactoComponent {
       title: "Por favor ingrese los campos correctamente!"
     });
   }
+
+  this.registrationForm.reset();
 }
 
 }
