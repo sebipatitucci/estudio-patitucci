@@ -43,3 +43,33 @@
     margin-right: auto;
     
 }
+
+@media (max-width: 991.97px) {
+    .navbar-nav {
+        text-align: center;
+        margin-top: 10px;
+        background-color: rgba(5, 5, 5, 0.799);
+        box-shadow: 0 1px 10px black;
+    }
+
+    .nav-link {
+      display: inline-block;
+      padding: 10px 0; /* Espaciado vertical entre enlaces */
+      color: rgb(247, 247, 247);
+      text-shadow: 0 1px 8px black;
+      margin-bottom: 10px;
+    }
+
+    .nav-link:hover{
+        border-bottom: solid 3px rgb(255, 255, 255);
+        color: white;
+    }
+
+    /* Opcional: Cambiar colores activos */
+    .nav-link.active {
+      border-bottom: solid 3px rgb(255, 255, 255);
+      font-weight: bold;
+      color: #ffffff !important;
+    }
+}
+  

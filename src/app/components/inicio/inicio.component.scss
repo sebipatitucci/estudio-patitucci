@@ -105,114 +105,162 @@
   }
 }
 
-@media (max-width: 460px){
-    .main-bg{
-        .main-container{
-            left: 50%;
-            #estudio{
-                font-size: 20px;
-            }
-            #patitucci{
-                font-size:40px;
-            }
-        }
-    }
-
-    #section-mision{
-        margin-top: 150px;
-    }
-}
-
-@media (max-width: 575.98px) {
-
-    .main-bg{
-        .main-container{
-            left: 50%;
-            #estudio{
-                font-size: 20px;
-            }
-            #patitucci{
-                font-size:40px;
-            }
-        }
-    }  
-
-  .main-bg img {
-    object-fit: scale-down;
-  }
-
-  #section-nosotros{
-    margin-top: -80px;
-    h3{
-        font-size: 22px;
-    }
-  }
-
-  #section-mision {
-    .card{
-        width: 100%;
-    }
-    .card-title {
-        font-size: 25px;
-    }
-    .card-text {
-        font-size: 14px;
-    }
-  }
-}
-
-@media (max-width: 767.98px) { 
-    .main-bg{
-        .main-container{
-            left: 50%;
-            margin-top: 50px;
-            #estudio{
-                font-size: 28px;
-            }
-            #patitucci{
-                font-size:50px;
-            }
-        }
-    }  
-
-  .main-bg img {
-    object-fit: scale-down;
-  }
-
-  #section-mision {
-    .card{
-        width: 80%;
-    }
-    .card-title {
-        font-size: 28px;
-    }
-    .card-text {
-        font-size: 18px;
-    }
-  }
- }
-
- @media (max-width: 991.98px) { 
-    .main-bg{
-        .main-container{
-            #estudio{
-                font-size: 25px;
-            }
-            #patitucci{
-                font-size:60px;
-            }
-        }
-    }  
-
-    #section-mision {
-        .card{
-            width: 70%;
-        }
-        .card-title {
-            font-size: 28px;
-        }
-        .card-text {
-            font-size: 18px;
-        }
+@media (max-width: 460px) {
+  .main-bg {
+    .main-container {
+      left: 50%;
+      #estudio {
+        font-size: 20px;
       }
-  } 
+      #patitucci {
+        font-size: 40px;
+      }
+    }
+  }
+
+  .main-bg img {
+    object-fit: scale-down;
+  }
+
+  #section-nosotros {
+    margin-top: -80px;
+    .section-container {
+      width: 100%;
+    }
+    h3 {
+      font-size: 18px;
+    }
+  }
+
+  #section-mision {
+    margin-top: 40px;
+    .mision-container {
+      .card {
+        width: 100%;
+      }
+      .card-title {
+        font-size: 25px;
+      }
+      .card-text {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (min-width: 460.1px) and (max-width: 575.98px) {
+  .main-bg {
+    .main-container {
+      left: 50%;
+      #estudio {
+        font-size: 20px;
+      }
+      #patitucci {
+        font-size: 40px;
+      }
+    }
+  }
+
+  .main-bg img {
+    object-fit: scale-down;
+  }
+
+  #section-nosotros {
+    margin-top: -80px;
+    .section-container {
+      width: 100%;
+    }
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  #section-mision {
+    .mision-container {
+      .card {
+        width: 80%;
+      }
+      .card-title {
+        font-size: 25px;
+      }
+      .card-text {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (min-width: 575.99px) and (max-width: 767.98px) {
+  .main-bg {
+    .main-container {
+      left: 50%;
+      margin-top: 50px;
+      #estudio {
+        font-size: 28px;
+      }
+      #patitucci {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .main-bg img {
+    object-fit: scale-down;
+  }
+
+  #section-nosotros {
+    margin-top: -80px;
+    .section-container {
+      width: 100%;
+    }
+    h3 {
+      font-size: 22px;
+    }
+  }
+
+  #section-mision {
+    margin-top: -10px;
+    .mision-container {
+      .card {
+        width: 80%;
+      }
+      .card-title {
+        font-size: 28px;
+      }
+      .card-text {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+  .main-bg {
+    .main-container {
+      #estudio {
+        font-size: 25px;
+      }
+      #patitucci {
+        font-size: 60px;
+      }
+    }
+  }
+
+  .main-bg img {
+    object-fit: scale-down;
+  }
+
+  #section-mision {
+    .mision-container {
+      .card {
+        width: 70%;
+      }
+      .card-title {
+        font-size: 28px;
+      }
+      .card-text {
+        font-size: 18px;
+      }
+    }
+  }
+}

@@ -92,3 +92,84 @@
     }
   }
 }
+
+@media (max-width: 460px) {
+  .main-bg {
+    .main-container {
+      left: 50%;
+      top: 40dvh;
+    }
+  }
+
+  .clientes-container{
+    h3{
+      text-align: center;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .slider-track {
+      animation: scroll 5s linear infinite; /* Animación continua */
+    }
+  }
+}
+
+@media (min-width: 460.1px) and (max-width: 575.98px){
+  .main-bg {
+    .main-container {
+      left: 50%;
+      top: 40dvh;
+    }
+  }
+  .clientes-container{
+    h3{
+      text-align: center;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .slider-track {
+      animation: scroll 5s linear infinite; /* Animación continua */
+    }
+  }
+}
+
+@media (min-width: 575.99px) and (max-width: 767.98px){
+  .main-bg {
+    .main-container {
+      left: 50%;
+      top: 40dvh;
+    }
+  }
+  .clientes-container{
+    h3{
+      text-align: center;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .slider-track {
+      animation: scroll 10s linear infinite; /* Animación continua */
+    }
+  }
+}
+
+@media (min-width: 767.99px) and (max-width: 991.98px){
+  .main-bg {
+    .main-container {
+      left: 50%;
+      top: 40dvh;
+    }
+  }
+  .clientes-container{
+    h3{
+      text-align: center;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .slider-track {
+      animation: scroll 15s linear infinite; /* Animación continua */
+    }
+  }
+}
