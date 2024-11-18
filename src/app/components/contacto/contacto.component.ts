@@ -24,7 +24,8 @@ export class ContactoComponent {
     return this.registrationForm.get(controlName)?.hasError(errorType) && this.registrationForm.get(controlName)?.touched;
   }
 
-   ngOnInit(): void {
+  ngOnInit(): void {
+    this.typeWriter();
   }
 
   public sendEmail(e: Event) {
@@ -68,5 +69,26 @@ export class ContactoComponent {
 
   this.registrationForm.reset();
 }
+
+
+text = ''; // Texto que se mostrará con el efecto de máquina de escribir
+  originalText = 'Nuestro ';
+  text2 = ''; // Texto que se mostrará con el efecto de máquina de escribir
+  originalText2 = 'Contacto';
+  index = 0;
+  index2 = -7;
+  speed = 80; // Velocidad en milisegundos entre cada letra
+
+  typeWriter(): void {
+    if (this.index2 < this.originalText.length) {
+      this.text += this.originalText.charAt(this.index);
+      this.text2 += this.originalText2.charAt(this.index2);
+      this.index++;
+      this.index2++;
+      setTimeout(() => {
+        this.typeWriter();
+      }, this.speed);
+    }
+  }
 
 }

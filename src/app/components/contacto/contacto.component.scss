@@ -7,8 +7,8 @@
     img{
         width: 100%;
         height: 100%;
-        object-fit: fill;
-        filter: brightness(0.4) ;
+        object-fit: cover;
+        filter: brightness(0.5) ;
     }
 
 
@@ -18,15 +18,23 @@
         height: 100%;
         align-content: center;
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 15dvh;
+        left: 60dvh;
         transform: translate(-50%, -50%);
         width: 100%;
 
         h1{
-            font-size: 70px;
-            font-family: "Prompt", sans-serif;
-            font-weight: 200;
+            font-size: 50px;
+            font-family: "Zen Dots", sans-serif;
+            color: rgb(255, 255, 255);
+            text-shadow: 0px 1px 20px rgb(0, 0, 0);
+            -webkit-text-stroke: 1.3px rgb(12, 12, 12);
+
+            #title-servicios{
+                font-size: 50px;
+                color: red;
+                text-shadow: 0px 1px 10px rgb(0, 0, 0);
+            }
         }
 
         p{
