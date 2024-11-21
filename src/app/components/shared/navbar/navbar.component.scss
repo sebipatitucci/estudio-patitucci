@@ -1,16 +1,10 @@
 .navbar{
     height: 10dvh;
     width: 100%;
-    // background: -webkit-linear-gradient(to right, #e8e7e7, #d21111);  /* Chrome 10-25, Safari 5.1-6 */
-    // background: linear-gradient(to right, #0000001d,#b1b0b088,#7979797a, #a3a3a3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    // position: absolute;
-    // top: 0;
     z-index: 1;
-    // background-color: rgba(255, 255, 255, 0.215);
     background-color: rgba(255, 255, 255, 0.816);
     backdrop-filter: blur(1px);
     box-shadow: 0px 4px 8px rgba(252, 251, 251, 0.151);
-    // box-shadow: 0px 4px 8px rgb(252, 251, 251);
 }
 
 

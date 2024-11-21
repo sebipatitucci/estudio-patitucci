@@ -7,10 +7,9 @@
     img{
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: fill;
         filter: brightness(0.5) ;
     }
-
 
     .main-container{
         color: rgb(246, 246, 246);
@@ -116,6 +115,9 @@
         left: 50%;
         top: 40dvh;
       }
+      img{
+        object-fit: cover;
+      }
     }
     #contact{
         width: 100%;
@@ -132,6 +134,9 @@
         left: 50%;
         top: 40dvh;
       }
+      img{
+        object-fit: cover;
+      }
     }
     #contact{
         width: 100%;
@@ -146,6 +151,9 @@
       .main-container {
         left: 50%;
         top: 40dvh;
+      }
+      img{
+        object-fit: cover;
       }
     }
     #contact{
