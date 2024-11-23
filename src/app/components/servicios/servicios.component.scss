@@ -24,11 +24,11 @@
 
     h1 {
       font-size: 70px; //estaba en 50
-            // font-family: "Zen Dots", sans-serif;
-            font-family: "Special Elite", sans-serif;
-            color: rgb(255, 255, 255);
-            text-shadow: 0px 1px 20px rgb(0, 0, 0);
-            // -webkit-text-stroke: 1.3px rgb(12, 12, 12);
+      // font-family: "Zen Dots", sans-serif;
+      font-family: "Special Elite", sans-serif;
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 1px 20px rgb(0, 0, 0);
+      // -webkit-text-stroke: 1.3px rgb(12, 12, 12);
 
       #title-servicios {
         font-size: 50px;
@@ -164,7 +164,7 @@
         margin-top: -120px;
     }
     .row{
-        .col-3{
+        .col-4{
             width: 100%;
             margin-top: 50px;
             .circle{
@@ -180,6 +180,9 @@
                 font-size: 1.1rem;
                 text-align: center;
             }
+        }
+        .abajo{
+          margin-top: -100px;
         }
     }
   }
@@ -211,7 +214,7 @@
           margin-top: -120px;
       }
       .row{
-          .col-3{
+          .col-4{
               width: 100%;
               margin-top: 50px;
               .circle{
@@ -227,6 +230,9 @@
                 font-size: 1.15rem;
                 text-align: center;
             }
+          }
+          .abajo{
+            margin-top: -100px;
           }
       }
     }
@@ -258,23 +264,26 @@
             margin-top: -120px;
         }
         .row{
-            .col-3{
-                width: 50%;
+            .col-4{
+                width: 100%;
                 margin-top: 50px;
-                margin-bottom: 70px;
+                margin-bottom: 10px;
                 .circle{
-                    scale: 0.6;
+                    scale: 0.4;
                 }
                 .card-body {
-                    margin-top: -20px;
+                    margin-top: -90px;
                 }
                 .card-title {
-                    font-size: 24px;
+                    font-size: 28px;
                 }
                 .card-text {
-                    font-size: 1.1rem;
+                    font-size: 1.2rem;
                     text-align: center;
                 }
+            }
+            .abajo{
+              margin-top: -100px;
             }
         }
       }
@@ -305,23 +314,26 @@
             margin-top: -120px;
         }
         .row{
-            .col-3{
-                width: 50%;
-                margin-top: 50px;
-                margin-bottom: 70px;
+            .col-4{
+                width: 100%;
+                margin-top: 20px;
+                margin-bottom: 0px;
                 .circle{
-                    scale: 0.6;
+                    scale: 0.4;
                 }
                 .card-body {
-                    margin-top: -20px;
+                    margin-top: -150px;
                 }
                 .card-title {
-                    font-size: 26px;
+                    font-size: 30px;
                 }
                 .card-text {
-                    font-size: 1.15rem;
+                    font-size: 1.25rem;
                     text-align: center;
                 }
+            }
+            .abajo{
+              margin-top: -120px;
             }
         }
       }
