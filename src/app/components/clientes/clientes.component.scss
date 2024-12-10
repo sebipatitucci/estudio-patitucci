@@ -75,12 +75,15 @@
   }
 
   .slider-track {
+    width: max-content;
     display: flex;
-    animation: scroll 20s linear infinite; /* Animación continua */
+    animation: scroll 15s alternate infinite; /* Animación continua */
     img {
-      width: 300px;
-      height: 200px;
-      margin-right: 10px;
+      width: 20vw;
+      height: 17vw;
+      flex: 0 0 15vw;
+      margin-right: 15px;
+      text-align: center;
     }
   }
 
@@ -89,7 +92,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-50%);
+      transform: translateX(-100vw);
     }
   }
 }
@@ -108,16 +111,26 @@
       width: 80%;
       margin-left: auto;
       margin-right: auto;
+      justify-content: center;
     }
     .slider-track {
-      animation: scroll 5s linear infinite ; /* Animación continua */
+      width: max-content;
+      display: flex;
+      animation: scroll 10s alternate infinite ; /* Animación continua */
+      img {
+        width: 36dvw;
+        height: 30dvw;
+        flex: 0 0 25dvw;
+        margin-right: 15px;
+        text-align: center;
+      }
     }
     @keyframes scroll {
       0% {
         transform: translateX(0%);
       }
       100% {
-        transform: translateX(-50%);
+        transform: translateX(-100dvw);
       }
     }
   }
@@ -138,14 +151,23 @@
       margin-right: auto;
     }
     .slider-track {
-      animation: scroll 5s linear infinite; /* Animación continua */
+      width: max-content;
+      display: flex;
+      animation: scroll 10s alternate infinite ; /* Animación continua */
+      img {
+        width: 35dvw;
+        height: 30dvw;
+        flex: 0 0 20dvw;
+        margin-right: 15px;
+        text-align: center;
+      }
     }
     @keyframes scroll {
       0% {
         transform: translateX(0);
       }
       100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
       }
     }
   }
@@ -166,14 +188,23 @@
       margin-right: auto;
     }
     .slider-track {
-      animation: scroll 10s linear infinite; /* Animación continua */
+      width: max-content;
+      display: flex;
+      animation: scroll 10s alternate infinite; /* Animación continua */
+      img {
+        width: 28dvw;
+        height: 25dvw;
+        flex: 0 0 20dvw;
+        margin-right: 15px;
+        text-align: center;
+      }
     }
     @keyframes scroll {
       0% {
         transform: translateX(0);
       }
       100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
       }
     }
   }
@@ -194,7 +225,16 @@
       margin-right: auto;
     }
     .slider-track {
-      animation: scroll 15s linear infinite; /* Animación continua */
+      width: max-content;
+      display: flex;
+      animation: scroll 10s alternate infinite; /* Animación continua */
+      img {
+        width: 20dvw;
+        height: 18dvw;
+        flex: 0 0 15dvw;
+        margin-right: 15px;
+        text-align: center;
+      }
     }
     @keyframes scroll {
       0% {

@@ -32,7 +32,7 @@ export class ContactoComponent {
     e.preventDefault();
 
     if(this.registrationForm.valid){
-      emailjs.sendForm('service_bhhc88i', 'template_mprm3k4', e.target as HTMLFormElement, '240msCoj8AucDMGVM')
+      emailjs.sendForm('service_wo0ltvs', 'template_mprm3k4', e.target as HTMLFormElement, '240msCoj8AucDMGVM')
       .then(
         () => {
           const Toast = Swal.mixin({
